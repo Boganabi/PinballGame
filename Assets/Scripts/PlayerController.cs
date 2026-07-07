@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnLeftPaddle() {
         if (isLeftPaddle) {
-            // Debug.Log("function left pressed");
+            Debug.Log("function left pressed");
             flip = !flip; // since this fires on press and release
         }
     }
